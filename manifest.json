@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Huawei Modem Manager",
+  "version": "1.0",
+  "description": "Klik untuk mengaktifkan overlay manajer di halaman admin modem Huawei.",
+  
+  "permissions": [
+    "scripting"
+  ],
+  
+  "host_permissions": [
+    "http://192.168.8.1/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "action": {
+    "default_title": "Aktifkan Huawei Manager"
+  },
+  
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
